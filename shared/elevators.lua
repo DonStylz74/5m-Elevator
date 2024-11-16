@@ -1,4 +1,24 @@
 Config.Elevators = {
+    ["PDMRockford"] = {
+        restricted = false, --[[ { ["police"] = 0 } or {"police", "ambulance"} or false to disable ]]
+        vehicle = true,
+        floors = {
+            {
+                floor = "GF",
+                label = "Ground Floor",
+                panel = vector4(-1225.1796, -346.4746, 37.3427, 213.1429),
+                position = vector4(-1225.1796, -346.4746, 37.3427, 213.1429),
+                carposition = vector4(-1224.1389, -348.5163, 37.3426, 113.5944),
+            },
+            {
+                floor = "Lvl 1",
+                label = "Level 1",
+                panel = vector4(-1225.1362, -346.5312, 40.5957, 212.0869),
+                position = vector4(-1225.1362, -346.5312, 40.5957, 212.0869),
+                carposition = vector4(-1224.3295, -348.4945, 40.5956, 111.3217)
+            }
+        }
+    },
     ["Maze Bank Tower"] = {
         restricted = false, --[[ { ["police"] = 0 } or {"police", "ambulance"} or false to disable ]]
         vehicle = true,
